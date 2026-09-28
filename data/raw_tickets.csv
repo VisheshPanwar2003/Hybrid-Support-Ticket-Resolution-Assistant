@@ -1,0 +1,6 @@
+ticket_id,category,priority,status,created_date,resolved_date,description,resolution
+1042, LOGIN ,high,resolved,2026-06-03,2026-06-04,User reports repeated timeout errors when logging in via the mobile app after the 2.3.1 update.,Root cause was an expired session token not being refreshed on app resume. Fixed by adding token refresh check on app-foreground event.
+1043,billing,medium,open,2026-06-04,,Customer was charged twice for the monthly pro subscription.,
+1044,UI,Low,Resolved,2026-06-05,2026-06-05,Dark mode text is unreadable on the settings page.,Updated CSS contrast ratio for settings-dark-mode class to meet accessibility standards.
+1045,  login, high, resolved, 2026-06-06,2026-06-06,User reports repeated timeout errors when logging in via the mobile app after the 2.3.1 update.,Root cause was an expired session token not being refreshed on app resume. Fixed by adding token refresh check on app-foreground event.
+1046,Hardware,,Open,2026-06-07,,,
