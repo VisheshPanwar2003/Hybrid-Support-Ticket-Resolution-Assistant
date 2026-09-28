@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "Exact Keyword Match",
+    "query": "How did we fix the mobile app login timeout?",
+    "expected_category": "login",
+    "expected_ticket_id": 1042
+  },
+  {
+    "scenario": "Semantic Match",
+    "query": "How was the UI accessibility issue resolved?",
+    "expected_category": "ui",
+    "expected_ticket_id": 1044
+  },
+  {
+    "scenario": "Open Ticket (No Resolution Yet)",
+    "query": "Has the double charge for the pro subscription been fixed?",
+    "expected_category": "billing",
+    "expected_ticket_id": 1043
+  },
+  {
+    "scenario": "SQL Filter Block (Zero Vectors Searched)",
+    "query": "What hardware issues did we have?",
+    "expected_category": "hardware",
+    "expected_ticket_id": null
+  },
+  {
+    "scenario": "Unrelated Query (Should Fail Gracefully)",
+    "query": "How do I bake a chocolate cake?",
+    "expected_category": null,
+    "expected_ticket_id": null
+  }
+]
